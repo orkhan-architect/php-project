@@ -1,0 +1,755 @@
+body{
+	background-color: #575757;
+}
+
+div, span, p, a {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+#anablok{
+	width: 1035px;
+	background-color: white;
+	margin: auto;
+}
+
+#basblok{
+	width: inherit;
+	height: 135px;
+}
+
+#titrblok{
+	width: inherit;
+	height: 30px;
+	background-color: #3B3B3B;
+}
+
+.qacanyazi{
+	font-size: 30px;
+	color: #fff;
+}
+
+#ilkblok{
+	width: inherit;
+	height: 32px;
+}
+
+#upmenublock{
+	width: 85%;
+	display: inline-block;
+}
+
+#upmenublock a{
+	font-size: 15px;
+	font-weight: bold;
+	padding-right: 6px;
+	padding-left: 6px;
+	display: inline-block;
+	color: #EF662B;  
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-right: 1px solid #E3E3E3;
+}
+
+#entryblock{
+	width: 15%;
+	float: right;
+	height: 24px;
+	padding-top: 7px;
+}
+
+#entryblock a.daxil{
+	border: 1px solid #E9EAEA;
+	border-radius: 6px;
+	background: url(../img/auth-butt-bg.png);
+	cursor: pointer;
+	color: #000;
+	text-decoration: none;
+	margin-left: 115px;
+}
+
+#entryblock a.daxil:hover{
+	background: url(../img/auth-butt-bg-move.png);
+}
+
+#logopl{
+	padding-top: 10px;
+	padding-left: 180px;
+	font-size: 55px;
+	font-style: italic;
+	color: blue;
+}
+
+#altmenyu{
+	width: inherit;
+	height: 32px;
+	background-color: aqua;
+}
+
+#leftmenu a{
+	font-size: 15px;
+	font-weight: bold;
+	padding-right: 6px;
+	padding-left: 6px;
+	display: inline-block;
+	color: #000;  
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-right: 1px solid #E3E3E3;
+}
+
+#esasblok{
+	width: inherit;
+	padding-bottom: 15px;
+}
+
+#midblock p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+#yigilma_sahesi p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+#midblock div{
+	display: inline-block;
+	border: 1px solid black;
+	padding-left: 2px;
+	padding-right: 2px;
+	font-size: 18px;
+	margin-left: 2px;
+}
+
+#yigilma_sahesi div{
+	display: inline-block;
+	padding-left: 2px;
+	padding-right: 2px;
+	font-size: 18px;
+	margin-left: 2px;
+}
+
+#applydate, #clientid, #applyform, #clientype, #clientnsp, #appointdate, #checkdate, #ofverdate, #ofcerlogin, #applybranch, #verifiedorder, #verifydate{
+	text-align: center;
+}
+
+.basliqxanalar{
+	font-weight: bold;
+	background-color: gray;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+}
+
+#clientid{
+	width: 100px;
+}
+
+#ofcerlogin{
+	width: 150px;
+}
+
+#clientid a{
+	text-decoration: none;
+}
+
+#applydate, #appointdate, #checkdate, #ofverdate, #verifydate{
+	width: 85px;
+}
+
+#applyform{
+	width: 230px;
+}
+
+#clientype{
+	width: 200px;
+}
+
+#clientnsp{
+	width: 360px;
+}
+
+.headerbox{
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.infobox{
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.infobox div{
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 1px;
+}
+
+.infobox div input{
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#officersel, #busisel{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.cheboxes{
+	font-size: 18px;
+	font-style: italic;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	padding-right: 3px;
+}
+
+#ptype, #appform, #combostype, #combosname, #docnumber, #docname, #docdate, #bodate, #verifialphnum{
+	width: 190px;
+}
+
+#branchnum, #concode, #cusprofveri{
+	width: 45px;
+}
+
+#applybranch, #verifiedorder{
+	width: 135px;
+}
+
+#appdate{
+	width: 90px;
+}
+
+#cuslogin, #combusisphere, #comportion, #cusresidency, #cusprofact, #cusipadr, #cusportadr{
+	width: 110px;
+}
+
+#cusnsp{
+	width: 325px;
+}
+
+#specialnote, #cushostadr{
+	width: 380px;
+}
+
+#comshaholder{
+	width: 360px;
+}
+
+#indtaxid{
+	width: 410px;
+}
+
+#emailaddr, #contname{
+	width: 242px;
+}
+
+#otherphnum{
+	width: 550px;
+}
+
+#cusauthor{
+	width: 190px;
+}
+
+#cusladres, #cusradres{
+	width: 500px;
+}
+
+#officerpnotes, #thirdperson, #policenotes{
+	width: 270px;
+}
+
+#codegener{
+	width: 70px;
+}
+
+#form_submit, #import{
+    background: url(../img/grd_reg_button.png);
+    border: 1px solid #000;
+	font-weight: bold;
+    border-radius: 5px; 
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 33px;
+    cursor: pointer;  
+}
+
+#form_submit:active{
+    background: url(../img/grd_reg_button_vert.png);
+}
+
+#form-error{
+    color: red;
+    background-color: #F7EDEF;
+    border: 1px solid #FAC8D3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#form-success{
+    color: #F0F;
+    background-color: #D9FFCA;
+    border: 1px solid #B7E787;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.mySlides {display: none}
+
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: brown;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+#proname, #credamount, #credcurre{
+	text-align: center;
+}
+
+#proname{
+	width: 130px;
+}
+
+#credamount{
+	width: 79px;
+}
+
+#credcurre{
+	width: 60px;
+}
+
+#statusel{
+	border: none;
+	margin-left: 2px;
+}
+
+#offerd_period{
+	width: 50px;
+}
+
+#offerd_amount{
+	width: 100px;
+}
+
+#credit_mains{
+	text-align: center;
+	width: 140px;
+}
+
+#credit_percentage, #credit_period{
+	text-align: center;
+	width: 80px;
+}
+
+#credit_production{
+	text-align: center;
+	width: 180px;
+}
+
+#credamo, #monthpay{
+	width: 100px;
+}
+
+#credper, #penalperc, #credti, #credcom{
+	width: 90px;
+}
+
+#credperc, #credfypd{
+	width: 70px;
+}
+
+#credextra{
+	width: 350px;
+}
+
+#unicality{
+	width: 200px;
+}
+
+#payday{
+	width: 50px;
+}
+
+#clientbox, #orderbox, #productbox, #amountbox, #currencybox, #periodbox, #percentagebox, #penaltybox, #paymentbox, #coeficentbox, #ratebox, #contractbox, #sourcebox, #comisionbox, #discountbox, #unicalidbox, #stdatebox, #endatebox, #paydaybox, #userbox, #statusbox, #restructionbox, #prolongbox{
+	border: 1px solid black;
+	text-align: center;
+}
+
+#clientbox, #orderbox{
+	width: 180px;
+}
+
+#productbox{
+	width: 140px;
+}
+
+#amountbox, #paymentbox, #userbox{
+	width: 91px;
+}
+
+#periodbox, #statusbox{
+	width: 60px;
+}
+
+#percentagebox, #penaltybox, #coeficentbox, #comisionbox{
+	width: 70px;
+}
+
+#contractbox{
+	width: 160px;
+}
+
+#indappbox, #indeacbox, #indcusbox, #indlegbox, #indothbox, #indresbox, #indbelbox, #indrelbox, #indgovbox, #indadmbox, #indepabox{
+	text-align: center;
+}
+
+#indappbox{
+	width: 205px;
+}
+
+#indeacbox{
+	width: 195px;
+}
+
+#indcusbox{
+	width: 170px;
+}
+
+#indlegbox{
+	width: 115px;
+}
+
+#indothbox{
+	width: 145px;
+}
+
+#indresbox{
+	width: 150px;
+}
+
+#indbelbox, #indrelbox{
+	width: 190px;
+}
+
+#indgovbox{
+	width: 210px;
+}
+
+#indadmbox{
+	width: 180px;
+}
+
+#indepabox{
+	width: 220px;
+}
+
+#analizbox, #verordbox, #rejordbox, #pledgbox, #litordbox, #medordbox, #bigordbox, #lombcrbox, #mortgcrbox, #cardcrbox, #kobcrbox, #urgcardcrbox, #minicrbox, #vehicrbox, #urgentcrbox{
+	text-align: center;
+}
+
+#analizbox{
+	width: 135px;
+}
+
+#verordbox{
+	width: 175px;
+}
+
+#rejordbox, #lombcrbox{
+	width: 145px;
+}
+
+#pledgbox{
+	width: 155px;
+}
+
+#litordbox, #mortgcrbox{
+	width: 120px;
+}
+
+#medordbox, #cardcrbox, #kobcrbox{
+	width: 110px;
+}
+
+#bigordbox, #urgcardcrbox{
+	width: 130px;
+}
+
+#minicrbox{
+	width: 115px;
+}
+
+#vehicrbox{
+	width: 140px;
+}
+
+#urgentcrbox{
+	width: 95px;
+}
+
+#typledge, #personalid, #pledamount, #pledcurrency{
+	text-align: center;
+}
+
+#typledge{
+	width: 190px;
+}
+
+#personalid{
+	width: 117px;
+}
+
+#pledamount{
+	width: 75px;
+}
+
+#pledcurrency{
+	width: 37px;
+}
+
+.companyhide, .citizenhide, .vehiclehide, .flathide, .apraisinsurhide{
+	display: none;
+}
+
+.companyshow, .citizenshow, .vehicleshow, .flatshow, .apraisinsurshow{
+	display: inline-block;
+}
+
+#pledgerstyle{
+	width: 280px;
+}
+
+#pledocidstyle{
+	width: 80px;
+}
+
+#dirtypestyle, #docgovenamestyle, #phonumberstyle, #mailstyle{
+	width: 220px;
+}
+
+#dirinitstyle{
+	width: 270px;
+}
+
+#docsernumstyle{
+	width: 120px;
+}
+
+#regadrestyle, #agentnotestyle, #managnotestyle{
+	width: 400px;
+}
+
+#coststyle, #markvaluestyle, #liqvaluestyle{
+	width: 110px;
+}
+
+#apraistyle, #insurancestyle{
+	width: 200px;
+}
+
+#brandstyle, #modelstyle{
+	width: 150px;
+}
+
+#proyearstyle{
+	width: 50px;
+}
+
+#appointstyle{
+	width: 155px;
+}
+
+#regidstyle{
+	width: 155px;
+}
+
+#concatcred{
+	width: 160px;
+	text-align: center;
+}
+
+#concatcont{
+	width: 80px;
+	text-align: center;
+}
+
+.myborders{
+	border: 1px solid black;
+}
+
+#input_search{
+	margin-left: 10px;
+}
+
+.pstrnav{
+	height: 32px;
+	clear: both;
+	padding-top: 3px;
+}
+
+.pstrnav li{
+	width: 26px;
+	height: 26px;
+	float: left;
+	margin-top: 3px;
+	margin-left: 7px;
+	list-style-type: none;
+}
+
+.pstrnav a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font: bold 16px "Times New Roman", Times, serif;
+	color: #000;
+	background: url(../img/nav-block-norm.png);
+	padding-top: 2px;
+	padding-bottom: 5px;
+}
+
+.pstrnav a:hover{	
+	background: url(../img/nav-block-hover.png);
+}
+
+.pstrnav a:active{	
+	background: url(../img/nav-block-active.png);
+	color: #fff;
+}
+
+.pstrnav a.pstr-active{	
+	background: url(../img/nav-block-active.png);
+	color: #fff;
+}
+
+.pstrnav p.nav-point{	
+	font: bold 14px "Times New Roman", Times, serif;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 8px;
+}
+
+#brname{
+	width: 300px;
+	text-align: center;
+}
+
+#brabbr{
+	width: 70px;
+	text-align: center;
+}
+
+#brnamestyle, #brpost{
+	width: 250px;
+}
+
+#brcodestyle{
+	width: 70px;
+}
+
+#usernamest, #userpassst{
+	width: 90px;
+}
+
+#usernspst{
+	width: 250px;
+}
+
+#usermailst{
+	width: 200px;
+}
+
+#userphonest{
+	width: 220px;
+}
+
+#leftmarg{
+	margin-left: 5px;
+}
+
+.show-hide{
+	display: none;
+}

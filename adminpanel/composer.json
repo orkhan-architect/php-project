@@ -1,0 +1,9 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.14",
+        "cloudmersive/cloudmersive_validate_api_client": "^1.5",
+        "phpoffice/phpword": "^0.17.0",
+        "laminas/laminas-escaper": "^2.6",
+        "dompdf/dompdf": "^0.8.6"
+    }
+}
